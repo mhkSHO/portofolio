@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPS Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>TPS Calculatrice</h1>
+
+    <div class="container">
+        <input type="text" id="t1" placeholder="Nombre 1">
+        <input type="text" id="t2" placeholder="Nombre 2">
+
+        <div class="buttons">
+            <button onclick="addition()">+</button>
+            <button onclick="soustraction()">-</button>
+            <button onclick="division()">/</button>
+            <button onclick="multiplication()">x</button>
+        </div>
+
+        <div class="buttons">
+            <button onclick="parite()">Parité</button>
+            <button onclick="permute()">Permuter</button>
+            <button onclick="effacer()">Effacer</button>
+        </div>
+
+        <div class="results">
+            <input type="text" id="t3" placeholder="Résultat" readonly class="result">
+            <input type="text" id="t4" placeholder="Pair / Impair" readonly class="pair">
+        </div>
+    </div>
+<br>
+    <div id="footer">
+  Voici mon texte en bas.
+</div>
+    <p id="explication">
+        Ce TP m’a permis de manipuler le DOM, de créer des fonctions JavaScript reliées à des événements,
+        de gérer les entrées et les sorties des formulaires, et d’apprendre à séparer le HTML, le CSS et le JS.
+        J’ai aussi compris comment remettre un formulaire à zéro et tester des conditions simples comme la parité.
+    </p>
+
+
+</body>
+</html>

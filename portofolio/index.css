@@ -1,0 +1,48 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+
+    /* Centre tout le contenu */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Titre principal */
+h1 {
+    margin: 40px 0 20px 0;
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* Style des liens */
+a {
+    display: block; /* chaque lien sur sa ligne */
+    margin: 10px 0;
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+    width: 220px;
+}
+
+/* Hover effect pour les liens */
+a:hover {
+    background-color: #3498db;
+    transform: translateY(-3px);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    a {
+        width: 90%;
+    }
+}
