@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Index</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            height: 100vh;
+        }
+        iframe {
+            border: none;
+        }
+        #sommaire {
+            width: 20%;
+            height: 100%;
+        }
+        #contenu {
+            width: 80%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-    <iframe src="sommaire.html" name="f1" height="800" width="20%" ></iframe>
-    <iframe src="contenu.html" name="f2" height="800" width="75%" ></iframe>
+    <iframe id="sommaire" src="sommaire.html" name="f1"></iframe>
+    <iframe id="contenu" src="page2.html" name="f2"></iframe>
 </body>
 </html>

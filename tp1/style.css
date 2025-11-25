@@ -1,0 +1,64 @@
+/* style.css - style général */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffe4e1; /* rose clair */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px auto;
+    padding: 0;
+    width: fit-content;
+    text-align: left;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table, th, td {
+    border: 2px solid #333;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #d63384;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6f42c1;
+}
+
+/* Footer / retour */
+.back {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #d63384;
+    color: white;
+    border-radius: 5px;
+}
+
+.back:hover {
+    background-color: #6f42c1;
+}
